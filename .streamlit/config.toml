@@ -1,0 +1,15 @@
+[theme]
+# Primary accent color for interactive elements.
+primaryColor="#1E90FF" # Dodger Blue
+
+# Background color for the main content area.
+backgroundColor="#F0F8FF" # Alice Blue
+
+# Background color for sidebar and most interactive widgets.
+secondaryBackgroundColor="#ADD8E6" # Light Blue
+
+# Color used for almost all text.
+textColor="#0a2f54" # Dark Blue/Navy
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+font="sans serif"
