@@ -31,10 +31,11 @@ FIXED_SERVICE_FEE = 33.24 # Approx. Cal Water fixed fee for Stockton
 # --- Main Page Content Function ---
 def main_page():
     # --- App Header ---
-    st.image("https://cdn.shopify.com/s/files/1/1172/5864/files/A_Guide_to_Water_Conservation_-_Saving_Water_and_the_Earth_480x480.jpg?v=1644994401", width=80)
+    st.image("https://i.imgur.com/v9a1DHC.jpeg", width=200)
     st.title("💧 AquaSave Stockton: Savings Calculator")
     st.markdown("Estimate potential savings by upgrading inefficient appliances!")
-    st.caption(f"Average Stockton Cal Water bill: $ 49/month, including a fixed fee of $ {FIXED_SERVICE_FEE:.2f}")
+    # st.markdown("Average Stockton Cal Water bill: $ 49/month, including a fixed fee of $33.24.")
+    st.markdown("Average Stockton Cal Water bill is 49/month, including a fixed service fee of 33.24.")
     st.divider()
 
 
